@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>{{title}}</h1>
+
+ <p>Добро пожаловать</p>
+
+ <h2>В библиотеке есть:</h2>
+
+ <ul>
+     <li><strong>Книги: </strong>{{num_books}}</li>
+     <li><strong>Копии: </strong>{{num_instances}}</li>
+     <li><strong>Копий доступно: </strong>{{num_instances_availible}}</li>
+     <li><strong>Авторов: </strong>{{num_authors}}</li>
+     <li><strong>Жанров: </strong>{{num_genres}}</li>
+ </ul>
+{% endblock %}
