@@ -1,1 +1,1 @@
-"#djangoLocaLaybrary project, based on msdn Developers tutorial" 
+"#djangoLocaLaybrary project, based on msd Developers tutorial" 
